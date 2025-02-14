@@ -1,0 +1,22 @@
+{
+  "name": "shuttle-koi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SifatAli008/shuttle-koi.git",
+  "author": "Sifat Ali <SifatAli008@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve public",
+    "deploy": "firebase deploy",
+    "dev": "serve public -l 3000"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "firebase": "^10.8.0",
+    "@popperjs/core": "^2.11.8"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.0.2",
+    "serve": "^14.2.1"
+  }
+}
